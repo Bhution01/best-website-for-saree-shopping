@@ -28,12 +28,6 @@ span{
     background-color: transparent !important;
 }
 
-.carousel-item{
-    height: 90vh;
-    min-height: 300px;
-    width: 100vw;
-}
-
 #img-1-heading{
     color: rgb(249, 67, 1);
 }
@@ -70,6 +64,50 @@ span{
     outline: 2px solid black;
     transition: 1s;
 }
+
+#cottonimg{
+    position: relative;
+}
+
+#cottonname{
+    top: 5%;
+    right: 0;
+    position: absolute;
+    background-color: rgb(255, 98, 0);
+}
+
+#Sareetype{
+    position: absolute;
+    top: 50%;
+    right: 32%;
+    color: rgb(254, 254, 254);
+    background-color: rgb(0, 0, 0,0.5);
+}
+
+#Sareetype1{
+    position: absolute;
+    top: 50%;
+    right: 9%;
+    color: rgb(254, 254, 254);
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+#contact-main{
+    background-color: #f0f0f0;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+    background: rgb(221, 217, 217);
+}
+
+::-webkit-scrollbar-thumb {
+    cursor: pointer;
+    background: linear-gradient(to bottom, rgb(255, 119, 0), white, rgb(51, 188, 27));;
+    border-radius: 100px;
+}
+
 
 
 
