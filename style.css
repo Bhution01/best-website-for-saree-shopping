@@ -116,8 +116,6 @@ span{
     height: 100vh;
 }
 
-@media (max-width:767px)
-
 @media (max-width:425px){
     .w-100{
         height: 30vh;
