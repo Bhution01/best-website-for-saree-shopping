@@ -33,7 +33,7 @@ span{
 }
 
 #imgmain{
-    background-image: url(/images/about1.jpg);
+    background-image: url(./images/about1.jpg);
     background-size: cover;
     background-position: center no-repeat fixed;
     height: 100vh;
@@ -108,7 +108,27 @@ span{
     border-radius: 100px;
 }
 
+#cart{
+    width: 50px;
+}
 
+.w-100 {
+    height: 100vh;
+}
+
+@media (max-width:767px)
+
+@media (max-width:425px){
+    .w-100{
+        height: 30vh;
+    }
+}
+
+@media (min-width:426px) and (max-width:991px) {
+    .w-100 {
+        height: 50vh;
+    }
+}
 
 
 
