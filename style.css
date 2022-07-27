@@ -8,7 +8,7 @@
     font-size: 30px;
 }
 
-span{
+#brand-name{
     color: aqua;
 }
 
@@ -115,6 +115,7 @@ span{
 .w-100 {
     height: 100vh;
 }
+
 
 @media (max-width:425px){
     .w-100{

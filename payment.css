@@ -22,7 +22,9 @@ body {
     background: #eee
 }
 
-
+span{
+    color: rgb(15, 61, 224);
+}
 
 .btn.btn-primary {
     background-color: #ddd;
